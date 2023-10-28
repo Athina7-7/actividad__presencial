@@ -50,6 +50,7 @@ body {
   margin: -40px 20px 0 20px;
 }
 
+
 .nav__lista-div{
   display: flex;
   justify-content: end;
@@ -72,8 +73,20 @@ a {
   color: var(--white-color);
  
 }
-
-img {
+.body__foto{
   max-width: 100%;
   height: auto;
+}
+.contenido__linea{
+  display: flex;
+  align-items: center;
+  width: 0.313rem;
+  height: 25rem;
+  background-color: var(--white-color);
+}
+
+.contenido__texto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
