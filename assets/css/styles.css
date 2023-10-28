@@ -77,16 +77,37 @@ a {
   max-width: 100%;
   height: auto;
 }
+.contenido{
+  width: 450px;
+  height: 15rem;
+  display: flex;
+  margin: 200px 0 0 150px;
+  flex-direction: row;
+  border: solid 1px white;
+}
 .contenido__linea{
   display: flex;
-  align-items: center;
-  width: 0.313rem;
-  height: 25rem;
+  width: 0.400rem;
+  height: 15rem;
   background-color: var(--white-color);
 }
 
 .contenido__texto{
+  width: 500px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  margin-left: 8%;
+  margin: 0px 0px 0 50px;
+  padding: 0 0 10px 0;
 }
+
+.contenido__titulo{
+  font-size: var(--h1-font-size);
+}
+
+.contenido__buttom{
+  width: 140px;
+  margin: 10px 0 0 0;
+  background-color: linear-gradient(to  black,#4E1116);
+}
+
